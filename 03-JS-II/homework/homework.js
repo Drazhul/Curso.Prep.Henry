@@ -199,7 +199,6 @@ function tablaDelSeis(){
   //La función devuelve un array con los resultados de la tabla de multiplicar del 6 en orden creciente.
   //Escribe tu código aquí  
     i =0;
-    resultado 
     const res = []
 
   do{
@@ -208,7 +207,7 @@ function tablaDelSeis(){
     i++;
   }while( i <= 10);
        
-  
+  return res;
 }
 
 function tieneTresDigitos(numero){
@@ -227,6 +226,15 @@ function doWhile(numero) {
   //Retornar el valor final.
   //Usar el bucle do ... while.
 
+  let i = 0 ;
+  let contador = 0;
+  do{
+    i++;
+        numero = numero + 5;
+
+  }while(i<8)
+
+return numero;
 
 }
 
